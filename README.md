@@ -8,7 +8,7 @@ function stateAt(position){
 }
 ```
 
-You might say our universe is boring, still it is infinite. Lots of stuff can happen in an infinite universe. It is so insanely huge, that a particle might occur at a random position. Shot. Its position is almost infinitely large. We can not represent that on my laptop. 
+You might say our universe is boring, still it is infinite. Lots of stuff can happen in an infinite universe. It is so insanely huge, that a particle might occur at a random position. Shoot! Its position is almost infinitely large. We can not represent that on my laptop. 
 We have to cheat a little and introduce a camera to our universe. 
 We center our camera at the position of the "big bang" -- that's where our random particle occured.
 We take that for granted and describe the universe relatively to the position of the camera.
