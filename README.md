@@ -65,14 +65,14 @@ At every point in time the standard deviation grows. The [entropy of a variable 
 E(n,p) = 1/2 log2( 2π e n p q ) + 𝓞(1/n) bits
 ```
 
-Simplified, the entropy of our universe grows over time like:
+Simplifying, with `p=1/2`, `q=1-p`, etc
 ```
 E(n) = 1/2 log2( 2π e n p (1-p) ) + 𝓞(1/n) bits
      ~ 1/2 log2( 2π e n 1/4 ) bits
      = 1/2 log2( π e n / 2 ) bits
 ```
 
-Substituting `t = n/2` yields
+Substituting `t = n/2` shows the entropy of our universe grows over time like:
 ```
 E(t) = 1/2 log2( π e t ) bits
 ```
