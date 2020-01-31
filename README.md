@@ -31,8 +31,10 @@ We define our universe to be completely non-deterministic. Our particle changes 
 
 ```javascript
 let currentPosition = 0;
+let t = 0;
 
 function timeStep(){
+  t += 1;
   if( Math.random() > 0.5 ){ // random movement 
     currentPosition += 1;    // to the right 
   } else {
