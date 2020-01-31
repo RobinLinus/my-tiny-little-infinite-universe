@@ -28,7 +28,7 @@ That's neat. Now we are able to run our little infinite universe on our computer
 
 We need time. We introduce time steps. Still, the particle doesn't move. Hmn... It needs a velocity, such that it has a different position at the next time step. Cool. Though the velocity must be limited. Otherwise the position of the particle exceeds our laptop's memory. Let's call the maximum velocity `c`.  At every time step, the particle can change its position at most `c` steps to the left or right. We dumb it down to `c=1`.
 
-We define our universe to be completely non-deterministic. Our particle changes its velocity at random at every step.
+We define our universe to be completely non-deterministic. Our particle changes its velocity randomly at every move.
 
 ```javascript
 let currentPosition = 0;
@@ -50,5 +50,4 @@ function stateAtCamera(relativePosition){
 }
 ```
 
-
-We could represent the history of the universe we could 
+We could represent the history of the universe as a bit string. It represents the particle's sequence of moves to the left or right. At every point in time we require one more bit. 
