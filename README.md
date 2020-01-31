@@ -34,12 +34,12 @@ let currentPosition = 0;
 let t = 0;
 
 function timeStep(){
-  t += 1;
   if( Math.random() > 0.5 ){ // random movement 
     currentPosition += 1;    // to the right 
   } else {
     currentPosition -= 1;    // to the left
   }
+  t += 1;                    // increment the time
 }
 
 function stateAtCamera(relativePosition){
