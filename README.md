@@ -54,7 +54,7 @@ We could represent the history of the universe as a bit string, representing the
 history = t * 1 bit
 ```
 
-More interesting is the information required to represent the current state of our universe. Naively we could say, that at every time step `currentPosition` requires 2 bits more, because in the worst case the particle could have moved always left or always right. That's wrong though. The particle follows a binominal distribution with 
+More interesting is the information required to represent the current state of our universe. Naively we could say, that at every time step `currentPosition` requires `2*log2(t) bits`, because in the worst case the particle could have moved always left or always right. That's wrong though. The particle follows a binominal distribution with 
 ```
 p = 0.5 
 n = 2 * t
