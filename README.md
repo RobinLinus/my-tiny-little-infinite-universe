@@ -64,9 +64,9 @@ E(n,p) = 1/2 log2( 2π e n p q ) + 𝓞(1/n) bits
 Simplified, the entropy of our universe grows by:
 ```
 E(n) = 1/2 log2( 2π e n p (1-p) ) + 𝓞(1/n) bits
-     = 1/2 log2( 2π e n 1/4 ) + 𝓞(1/n) bits
-     = 1/2 log2( π e n / 2 ) + 𝓞(1/n) bits
-     = 1/2 log2( π e timeSteps ) + 𝓞(1/n) bits
+     ~ 1/2 log2( 2π e n 1/4 ) bits
+     = 1/2 log2( π e n / 2 ) + bits
+     = 1/2 log2( π e timeSteps ) + bits
 ```
 
 
