@@ -70,10 +70,12 @@ Simplified, the entropy of our universe grows over time like:
 E(n) = 1/2 log2( 2π e n p (1-p) ) + 𝓞(1/n) bits
      ~ 1/2 log2( 2π e n 1/4 ) bits
      = 1/2 log2( π e n / 2 ) bits
-     =>     
-E(t) = 1/2 log2( π e t ) bits
 ```
 
+Substituting `t = n/2` yields
+```
+E(t) = 1/2 log2( π e t ) bits
+```
 
 
 
