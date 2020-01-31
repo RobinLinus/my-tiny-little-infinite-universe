@@ -56,8 +56,11 @@ More interesting is the information required to represent the current state of o
 p= 0.5 
 n= 2 * #timeSteps
 ```
-At every point in time the standard deviation grows.
+At every point in time the standard deviation grows. Wikipedia says the [entropy of a variable that is binominally distributed](https://en.wikipedia.org/wiki/Binomial_distribution) is 
 
+```
+E(n,p) = 1/2 log2( 2*π*e*n*p*(1-p) ) + 𝓞(1/n) bits
+```
 
 
 
