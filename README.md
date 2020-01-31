@@ -1,6 +1,6 @@
 # My tiny little infinite Universe
 
-My tiny little 1 bit universe is a thought experiment on entropy. We create a simple universe. Our universe is just a bit string. Of course, we want to have an infinite universe so it is an infinite bit string. We want to run our universe on a regular laptop. So we start with a completely empty universe.
+My tiny little infinite universe is a thought experiment on entropy. We create a simple universe. Our universe is just a bit string. Of course, we want to have an infinite universe so it is an infinite bit string. We want to run our universe on a regular laptop. So we start with a completely empty universe.
 
 ```javascript
 function stateAt(position){
@@ -8,8 +8,7 @@ function stateAt(position){
 }
 ```
 
-You might say our universe is boring, but it is infinite. Let's add a particle at a random position.
-Shot. Its position is almost infinitely large. We can not represent that on my laptop. 
+You might say our universe is boring, still it is infinite. Lots of stuff can happen in an infinite universe. A particle might occur at a random position. Shot. Its position is almost infinitely large. We can not represent that on my laptop. 
 Let's cheat a little and introduce a camera to our universe. 
 We center our camera at the position of the "big bang" -- that's where our random particle occured.
 We take that for granted and describe the universe relatively to the position of the camera.
