@@ -56,8 +56,8 @@ history = t * 1 bit
 
 More interesting is the information required to represent the current state of our universe. Naively we could say, that at every time step `currentPosition` requires 2 bits more, because in the worst case the particle could have moved always left or always right. That's wrong though. The particle follows a binominal distribution with 
 ```
-p= 0.5 
-n= 2 * t
+p = 0.5 
+n = 2 * t
 ```
 At every point in time the standard deviation grows. The [entropy of a variable that is binominally distributed](https://math.stackexchange.com/questions/244455/entropy-of-a-binomial-distribution) is about
 
