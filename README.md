@@ -1,4 +1,4 @@
-# My tiny little 1 bit Universe
+# My tiny little infinite Universe
 
 My tiny little 1 bit universe is a thought experiment on entropy. We create a simple universe. Our universe is just a bit string. Of course, we want a infinite universe so it is an infinite bit string. We want to run our universe on a regular laptop. So we start with a completely empty universe.
 
