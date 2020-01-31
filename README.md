@@ -85,4 +85,4 @@ E(t) = 1/2 log2( π e t ) bits
 
 
 ## Further Thoughts 
-- The algorithmic complexity of any almost-deterministic universe must be much much lower than its Shannon entropy.
+- The algorithmic complexity of any expanding, almost-deterministic universe must be much much lower than its Shannon entropy.
