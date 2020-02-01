@@ -1,6 +1,6 @@
 # My tiny little infinite Universe
 
-*My tiny little infinite universe* is a thought experiment on entropy. We create a simple universe. Our universe is just a bit string. Of course, we want to have an infinite universe so it is an infinite bit string. We want to run our universe on a regular laptop. So we start with a completely empty universe, which we can represent easily:
+*My tiny little infinite universe* is a thought experiment on entropy. We create a simple universe. Our universe is just a bit string. Of course, we want to have an infinite universe so it is an infinite bit string. We want to run our universe on a regular laptop. So we start with a completely empty universe because we can represent it easily:
 
 ```javascript
 function stateAt(position){
@@ -10,7 +10,7 @@ function stateAt(position){
 
 You might say our universe is a bit boring, still it is infinite and runs on our computer. Lots of stuff can happen in an infinite universe. It is so insanely huge, that a particle might occur at a random position. Shoot! Its position is almost infinitely large. Even Billions of Gigabytes would not be enough to encode the particle's position. We can not represent that on my laptop. 
 We have to cheat a little and introduce a camera to our universe. 
-We center our camera at the position of the "big bang", where our random particle occured.
+We center our camera at the position of the "big bang", where our random particle occurred.
 We take that for granted and describe the universe relatively to the position of the camera.
 
 ```javascript
@@ -56,12 +56,12 @@ We could represent the history of the universe as a bit string, representing the
 history = t * 1 bit
 ```
 
-More interesting is the information required to represent the current state of our universe. Naively we could say, that at every time step `currentPosition` requires `2*log2(t) bits`, because in the worst case the particle could have moved always left or always right. The actual entropy is lower though. The particle follows a binominal distribution with 
+More interesting is the information required to represent the current state of our universe. Naively we could say, that at every time step `currentPosition` requires `2*log2(t) bits`, because in the worst case the particle could have moved always left or always right. The actual entropy is lower though. The particle follows a binomial distribution with 
 ```
 p = 0.5 
 n = 2 * t
 ```
-At every point in time only the standard deviation grows. The [entropy of a variable that is binominally distributed](https://math.stackexchange.com/questions/244455/entropy-of-a-binomial-distribution) is about
+At every point in time only the standard deviation grows. The [entropy of a variable that is binomially distributed](https://math.stackexchange.com/questions/244455/entropy-of-a-binomial-distribution) is about
 
 ```
 E(n,p) = 1/2 log2( 2π e n p q ) + 𝓞(1/n) bits
@@ -82,8 +82,6 @@ E(t) = 1/2 log2( π e t ) bits
 
 
 
-
-
 ## Further Thoughts 
-- The algorithmic complexity of any deterministic universe is constant.
-- The algorithmic complexity of any expanding, almost-deterministic universe is much much lower than its Shannon entropy.
+- The algorithmic complexity of any deterministic universe is constant. All information follows from its laws and the initial configuration.
+- The algorithmic complexity of any multi-particle, expanding, almost-deterministic universe is much much lower than its Shannon entropy. 
