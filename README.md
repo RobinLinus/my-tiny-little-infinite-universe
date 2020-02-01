@@ -25,7 +25,7 @@ function stateAtCamera(relativePosition){
 
 That's neat. Now we are able to run our little infinite universe on our computer again. Yet, it is still hyper boring. Our particle is just at position 0 and it never moves. 
 
-We need time. We introduce time steps. Still, the particle doesn't move. Hmn... It needs a velocity, such that it has a different position at the next time step. Cool. Though the velocity must be limited. Otherwise the position of the particle exceeds our laptop's memory. Let's call the maximum velocity `c`.  At every time step, the particle can change its position at most `c` steps to the left or right. We dumb it down to `c=1`.
+We need time. We introduce time steps. Still, the particle doesn't move. Hmn... It needs a velocity, such that it has a different position at the next time step. Cool. Though the velocity must be limited. Otherwise the position of the particle exceeds our laptop's memory. Let's call the maximum velocity `c`.  At every time step, the particle can change its position at most `c` steps to the left or right. We dumb our model down to `c=1`.
 
 We define our universe to be completely non-deterministic. Our particle changes its velocity randomly at every move.
 
