@@ -85,3 +85,4 @@ E(t) = 1/2 log2( π e t ) bits
 ## Further Thoughts 
 - The algorithmic complexity of any deterministic universe is constant. All information follows from its laws and the initial configuration.
 - The algorithmic complexity of any multi-particle, expanding, almost-deterministic universe is much much lower than its Shannon entropy. 
+- The algorithmic complexity of any universe with a mind that has a free will increases with every decision of that mind.
